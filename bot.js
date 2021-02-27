@@ -17,7 +17,7 @@ client.on('message', async msg =>{
         .then(console.log)
         .catch(console.error);
     }
-    if(msg.content == 'buonanotte'){
+    if(msg.content == 'buonanotte' || msg.content == 'notte'){
 
         let ballembed = new Discord.MessageEmbed()
         .setColor(0x000000)

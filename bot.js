@@ -18,9 +18,9 @@ client.on('message', async msg =>{
         .catch(console.error);
     }
     if(msg.content == 'buonanotte'){
-        msg.send('Ti ci saluto !')
-        .then(console.log)
-        .catch(console.error);
+        msgchannel.send("Ti ci saluto !", {
+            file: "https://thumbs.gfycat.com/AlarmingImpassionedAsiandamselfly-small.gif" // Or replace with FileOptions object
+        });
     }
 })
 

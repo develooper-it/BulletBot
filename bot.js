@@ -22,6 +22,7 @@ client.on('message', async msg =>{
             file: "https://thumbs.gfycat.com/AlarmingImpassionedAsiandamselfly-small.gif" // Or replace with FileOptions object
         });
     }
+    
 })
 
 

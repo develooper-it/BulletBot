@@ -17,6 +17,7 @@ client.on('message', async msg =>{
         .then(console.log)
         .catch(console.error);
     }
+    
 })
 
 

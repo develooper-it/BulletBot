@@ -18,11 +18,15 @@ client.on('message', async msg =>{
         .catch(console.error);
     }
     if(msg.content == 'buonanotte'){
-        msg.channel.send("Ti ci saluto !", {
-            file: "https://thumbs.gfycat.com/AlarmingImpassionedAsiandamselfly-small.gif" // Or replace with FileOptions object
-        });
+
+        let ballembed = new Discord.MessageEmbed()
+        .setColor(0x000000)
+        .setDescription(`Ti ci saluto !`)
+        .attachFiles(["https://thumbs.gfycat.com/AlarmingImpassionedAsiandamselfly-small.gif"])
+        msg.channel.send(ballembed);
+
     }
-    
+
 })
 
 

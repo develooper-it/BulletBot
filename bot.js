@@ -13,7 +13,7 @@ client.on('ready', () =>{
 
 client.on('message', async msg =>{
     if(msg.content == 'ping'){
-        message.react('🤔')
+        msg.react('🤔')
         .then(console.log)
         .catch(console.error);
     }

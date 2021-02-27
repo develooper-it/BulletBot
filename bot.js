@@ -31,7 +31,7 @@ client.on('message', async msg =>{
         let ballembed = new Discord.MessageEmbed()
         .setColor(0x000000)
         .setDescription(`Sempre problemi...`)
-        .attachFiles(["https://media.tenor.co/videos/35ea116a27a888054ebb1a192004f8e4/mp4"])
+        .attachFiles(["https://media.giphy.com/media/ToMjGpIYtgvMP38WTFC/giphy.gif"])
         msg.channel.send(ballembed);
 
     }

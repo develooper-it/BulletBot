@@ -17,7 +17,11 @@ client.on('message', async msg =>{
         .then(console.log)
         .catch(console.error);
     }
-    
+    if(msg.content == 'buonanotte'){
+        msg.send('Ti ci saluto !')
+        .then(console.log)
+        .catch(console.error);
+    }
 })
 
 

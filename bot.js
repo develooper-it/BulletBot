@@ -1,7 +1,7 @@
 require('dotenv').config()
 const ytdl = require('ytdl-core');
-const { Client, MessageEmbed } = require('discord.js');
-const client = new Client({
+const Discord = require('discord.js');
+const client = new Discord.Client({
     partials:["MESSAGE"]
 })
 

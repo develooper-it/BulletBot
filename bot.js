@@ -26,6 +26,16 @@ client.on('message', async msg =>{
         msg.channel.send(ballembed);
 
     }
+    if(msg.content == 'problema'){
+
+        let ballembed = new Discord.MessageEmbed()
+        .setColor(0x000000)
+        .setDescription(`Sempre problemi...`)
+        .attachFiles(["https://media.tenor.co/videos/35ea116a27a888054ebb1a192004f8e4/mp4"])
+        msg.channel.send(ballembed);
+
+    }
+    
 
 })
 

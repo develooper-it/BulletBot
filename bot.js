@@ -33,7 +33,6 @@ client.on('message', async msg =>{
         .setDescription(`Sempre problemi...`)
         .attachFiles(["https://media.giphy.com/media/ToMjGpIYtgvMP38WTFC/giphy.gif"])
         msg.channel.send(ballembed);
-
     }
     
 
